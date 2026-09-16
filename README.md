@@ -4,7 +4,7 @@ This project contains rules, skills and general information about AI tools to ef
 
 ## Rules
 
-Create symbolic links to the rules you want to use, from the repository root:
+Create symbolic links to the rules you want to use. From the repository root directory, run the following commands:
 
 ```bash
 mkdir -p "${HOME}/.cursor/rules"
@@ -19,7 +19,7 @@ Shared rules (`core`, `style-ponytail`, `lang-*`) are committed in this reposito
 
 ## Skills
 
-Create symbolic links to the skills you want to use, from the repository root:
+Create symbolic links to the skills you want to use. From the repository root directory, run the following commands:
 
 ```bash
 mkdir -p "${HOME}/.cursor/skills"
@@ -31,5 +31,9 @@ done
 ```
 
 ## Tools
+
+> [!TIP]
+>
+> When using Cursor, clone this repository into your Cursor user configuration directory `~/.cursor`. This allows you to mount the directory `~/.cursor` into a container and keep all rules and skills.
 
 Additional information about tools can be found in [`tools/`](./tools/).
