@@ -41,4 +41,3 @@ Copy or symlink skill directories from [`skills/`](./skills/) into `~/.cursor/sk
 |`git-mr-eval-feedback/`|Apply third-party review feedback|
 |`git-mr-review/`|Review a merge request or pull request from a URI|
 |`project-audit/`|Audit a project for consistency, correctness, soundness and style problems|
-|`project-index/`|Build or rebuild `.project_index.yaml` for a repository|

@@ -17,9 +17,8 @@ With no argument, the subject is the whole working tree of the current repositor
 
 Before reading source, you MUST learn what the project is and which checks it configures:
 
-1. `.project_index.yaml`, when it exists — the module map, read first
-2. `AGENTS.md`, `README.md`, and `CONTRIBUTING.md` — the stated intent you audit the tree against
-3. `.editorconfig` and tool configuration (`pyproject.toml`, `Cargo.toml`, `cspell.config.yaml`, `.gitignore`, CI workflows) — the project's own rules
+1. `AGENTS.md`, `README.md`, and `CONTRIBUTING.md` — the stated intent you audit the tree against
+2. `.editorconfig` and tool configuration (`pyproject.toml`, `Cargo.toml`, `cspell.config.yaml`, `.gitignore`, CI workflows) — the project's own rules
 
 Stated intent is evidence, not truth: a `README` that describes a layout the tree no longer has is itself a consistency finding.
 
